@@ -20,6 +20,12 @@ Note: Your visual studio may need updates and `node.js` to work, on first run of
 
 ![alt text](./Screenshots/PrimeExample.png "Get Prime Number Example")
 
+### Further Work
+
+* The solution needs to incorporate validation on the inputs that prevents the user from inputting a number outside of int range.
+* The solution needs to incorporate handling errors on the front-end to inform the user that something went wrong.
+* An additional page that returns the logs from the database, could be a nice implementation to use the database more effectively.
+
 ## Tasks
 
 ### Git
