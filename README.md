@@ -4,7 +4,7 @@ For this programming challenge, I used a C# api with an Angular front-end. I mod
 
 **Visual Studio can be used to run the solution, by setting `CalculatorWebsite` as the StartUp Project.**
 
-Note: Your visual studio may need updates and `node.js` to work.
+Note: Your visual studio may need updates and `node.js` to work, on first run of the application it may take a few mins to restore npm dependencies and deploy database, if a time-out / python error occurs, please try running the application again.
 
 ### Projects
 * **CalculatorDatabase:** Contains the EF Core code to describe the database, via `CalculatorContext.cs` *(SQL Server Task)*.
