@@ -102,7 +102,7 @@ namespace CalculatorLibrary
 
                 for (int i = 0; i < primes.Count; i++)
                 {
-                    if (primes[i] >= factorLimit)
+                    if (primes[i] > factorLimit)
                         break;
 
                     // If no remainder, then number is factor so potential is not a prime.
