@@ -12,6 +12,14 @@ Note: Your visual studio may need updates and `node.js` to work, on first run of
 * **CalculatorLibraryTests:** Contains the unit tests for the calculator *(TDD Task)*.
 * **CalculatorWebsite:** Contains the Angular website *(Web Task)*.
 
+### Screenshots of Web App
+
+![alt text](./Screenshots/OnInitialisation.png "On Initialisation")
+
+![alt text](./Screenshots/AdditionExample.png "Addition Example")
+
+![alt text](./Screenshots/PrimeExample.png "Get Prime Number Example")
+
 ## Tasks
 
 ### Git
