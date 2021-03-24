@@ -1,0 +1,13 @@
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.calculator-input {
+  max-width: 200px;
+  width: 100%;
+  padding: 2px;
+  margin: 0px 20px;
+}

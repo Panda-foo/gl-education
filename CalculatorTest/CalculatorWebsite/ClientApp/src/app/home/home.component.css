@@ -1,0 +1,39 @@
+.calculator-form {
+  width: 100%;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.select-type-input {
+  max-width: 440px;
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.calculation-button {
+  max-width: 250px;
+  width: 100%;
+  margin: 20px;
+}
+
+.answer-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.display-answer {
+  max-width: 440px;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}

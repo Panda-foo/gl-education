@@ -1,0 +1,24 @@
+<form class="calculator-form">
+  <div container class="select-container">
+    <mat-form-field appearance="fill" class="select-type-input">
+      <mat-label>Calculation</mat-label>
+      <mat-select [(value)]="calculationRequest.type">
+        <mat-option *ngFor="let type of calculationTypes" [value]="type.value">
+          {{type.label}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <app-calculation-inputs [calculationRequest]="calculationRequest" [type]="calculationRequest.type"></app-calculation-inputs>
+
+  <div container class="button-container">
+    <button class="calculation-button" mat-raised-button [disabled]="calculationRequest.type === 0" color="primary" aria-label="calculate" (click)="getCalculation()">Calculate</button>
+  </div>
+</form>
+
+<div container class="answer-container">
+  <mat-card *ngIf="calculated" class="display-answer">
+    <p>The answer is: <b>{{calculation}}</b></p>
+  </mat-card>
+</div>

@@ -1,0 +1,22 @@
+<div container class="input-container">
+  <mat-form-field class="calculator-input" *ngIf="renderStart">
+    <mat-label>Start</mat-label>
+    <input matInput type="number" placeholder="Starting value" [(ngModel)]="calculationRequest.start" [ngModelOptions]="{standalone: true}">
+  </mat-form-field>
+
+  <mat-form-field class="calculator-input" *ngIf="renderAmount">
+    <mat-label>Amount</mat-label>
+    <input matInput type="number" placeholder="Integer to add / subtract to the start value" [(ngModel)]="calculationRequest.amount" [ngModelOptions]="{standalone: true}">
+  </mat-form-field>
+
+  <mat-form-field class="calculator-input" *ngIf="renderBy">
+    <mat-label>By</mat-label>
+    <input matInput type="number" placeholder="Integer to multiply / divide by the start value" [(ngModel)]="calculationRequest.by" [ngModelOptions]="{standalone: true}">
+  </mat-form-field>
+
+  <mat-form-field class="calculator-input" *ngIf="renderIndex">
+    <mat-label>Prime Number Index</mat-label>
+    <input matInput type="number" placeholder="The position of the prime number in the prime number sequence." [(ngModel)]="calculationRequest.index" [ngModelOptions]="{standalone: true}">
+  </mat-form-field>
+</div>
+
